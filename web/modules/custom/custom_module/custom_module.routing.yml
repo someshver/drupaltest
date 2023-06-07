@@ -1,0 +1,8 @@
+calculator_form.calculator:
+  path: '/calculator'
+  defaults:
+    _form: '\Drupal\custom_module\Form\MathsForm'
+    _title: 'calculator'
+  requirements:
+    _permission: 'access content'
+    _access: 'TRUE'
